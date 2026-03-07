@@ -76,7 +76,7 @@ function App() {
     return (
       <div className="game-container">
         <h1 className="title">Lumina <Sparkles className="inline-icon" size={32} color="#ffd700" /></h1>
-        <p className="subtitle">Connect the concepts through a labyrinth of meaning.</p>
+        <p className="subtitle">Start at the first word and reach the target by moving through related concepts. Find the shortest path you can, and try to beat par.</p>
         
         <div className="glass-panel" style={{ width: '100%', maxWidth: '500px' }}>
           {LEVELS.map(level => (
@@ -96,7 +96,7 @@ function App() {
         </div>
         
         <div style={{ marginTop: '2rem', opacity: 0.5, fontSize: '0.8rem' }}>
-          <p>A game of semantic association.</p>
+          <p>Choose a level to begin.</p>
         </div>
       </div>
     )

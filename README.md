@@ -24,8 +24,10 @@ In a world of scattered meanings, your goal is to find the thread that connects 
 ### Install Dependencies
 
 ```bash
-npm install
+npm ci
 ```
+
+Use this once after cloning (or any time `node_modules` is missing) before running `npm run dev` or `npm run build`.
 
 ### Run Locally
 
